@@ -1,0 +1,45 @@
+[user]
+    name = Cory Levy
+    email = corylevy@gmail.com
+    username = LevyCory
+
+[core]
+    editor = nvim
+
+[alias]
+    # Branch
+    b = branch
+    bd = branch -d
+    bD = branch -D
+
+    # Checkout
+    co = checkout
+    cob = checkout -b
+    com = checkout master
+
+    # Commit
+    ci = commit
+    can = commit --amend --no-edit
+    caan = commit --amend -no-edit -a
+
+    # Log
+    ol = log --oneline
+    last = log -1
+
+    # Rebase
+    ri = rebase --interactive
+    ir = rebase --interactive
+    ra = rebase --abort
+    rc = rebase --continue
+    ro = rebase --onto
+
+    # Cherrypick
+    cp = cherry-pick
+    cpa = cherry-pick --abort
+    cpc = cherry-pick --continue
+
+    # Merge
+    m = merge
+	ma = merge --abort
+	mc = merge --continue
+	ms = merge --skip
