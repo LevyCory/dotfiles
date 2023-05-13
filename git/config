@@ -43,3 +43,6 @@
 	ma = merge --abort
 	mc = merge --continue
 	ms = merge --skip
+
+    # Add
+    ap = add -p
